@@ -79,6 +79,7 @@ class FADConv(nn.Module):
 
         dynamic_kernel = torch.einsum('be,eoihw->boihw', route_weights, self.experts)
 
+        x = x.view(1, -1, H, W)
         dynamic_kernel = dynamic_kernel.view(-1, self.in_channels // self.groups,
                                              self.kernel_size, self.kernel_size)  # [B*out, C, K, K]
 
