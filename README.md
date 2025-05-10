@@ -9,6 +9,6 @@ Replace the static convolution kernel with FADConv.
 
 For example：
 
-FADConv(in_channels, out_channels, 3,stride=stride,padding=1,num_experts=4),
+FADConv(in_channels, out_channels, 3, stride=stride, padding=1, num_experts=4),
 
-FADConv(in_channels, out_channels, kernel_size=3,padding=18, dilation=18,num_experts=num_experts)
+FADConv(in_channels, out_channels, kernel_size=3, padding=18, dilation=18, num_experts=num_experts)
