@@ -12,3 +12,25 @@ For example：
 FADConv(in_channels, out_channels, 3, stride=stride, padding=1, num_experts=4),
 
 FADConv(in_channels, out_channels, kernel_size=3, padding=18, dilation=18, num_experts=num_experts)
+
+## 📚 Citation
+
+If you find this repository useful in your research, please consider citing our paper. 🌟
+
+📄 **Paper Link:** [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1569843225006612) | 🔗 **DOI:** [10.1016/j.jag.2025.105014](https://doi.org/10.1016/j.jag.2025.105014)
+
+**BibTeX:**
+
+```bibtex
+@article{SHU2026105014,
+  title     = {FADConv: A frequency-aware dynamic convolution for cropland non-agriculturalization identification and segmentation},
+  journal   = {International Journal of Applied Earth Observation and Geoinformation},
+  volume    = {146},
+  pages     = {105014},
+  year      = {2026},
+  issn      = {1569-8432},
+  doi       = {10.1016/j.jag.2025.105014},
+  url       = {https://www.sciencedirect.com/science/article/pii/S1569843225006612},
+  author    = {Tan Shu and Li Shen and Yong Wang and Peng Zhang},
+  keywords  = {Remote sensing, Cropland non-agriculturalization, Cropland segmentation, Dynamic convolution, Frequency attention, High-resolution images},
+}
